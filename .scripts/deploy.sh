@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e # Exit with nonzero exit code if anything fails
 
+wget https://github.com/valueflows/lod-converter/raw/master/lod-converter.jar -P .scripts/
+
 SOURCE_BRANCH="master"
 TARGET_BRANCH="gh-pages"
 
